@@ -1,0 +1,644 @@
+@media screen and (max-width:576px) {
+  .main-banner .item {
+    width: 100vw;
+    height: 400px;
+  }
+
+  .main-banner .item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .item-content {
+    padding: 25px 15px;
+    width: 220px;
+    top: 50px;
+    left: 40px;
+    background-color: #30373e;
+  }
+
+  .item-content .sub-title {
+    color: #B19777;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .item-content .title {
+    font-size: 21px;
+  }
+
+  .item-content .desc {
+    font-size: 15px;
+  }
+
+  .view-btn {
+    font-size: 13px;
+    padding: 6px 15px;
+  }
+
+  .logo h1 {
+    font-size: 25px;
+  }
+
+  .logo h3::before {
+    content: '';
+    position: absolute;
+    height: 1.5px;
+    width: 210px;
+    background: linear-gradient(to left, rgb(203, 124, 112), rgba(179, 154, 150, .1));
+    top: 35px;
+    left: -35px;
+  }
+
+  .review-slider {
+    padding: 50px 10px;
+  }
+
+  .review-slider .carousel-control-prev {
+    left: -30px;
+  }
+
+  .review-slider .carousel-control-next {
+    right: -30px;
+  }
+
+  .review-slider .item h1 {
+    letter-spacing: 3px;
+    font-size: 40px;
+  }
+
+  .review-slider .item p:nth-child(2) {
+    color: #FEFEFE;
+    font-size: 15px;
+    line-height: 25px;
+    word-spacing: 5px;
+  }
+
+  .inspi-detail p:nth-child(1) {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31px;
+  }
+
+  .inspi-detail p:nth-child(2) {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .div-border {
+    position: absolute;
+    width: 50px;
+    top: 15px;
+    right: 15px;
+  }
+
+  .footer-logo::after {
+    height: 0.5px;
+    left: 0;
+    width: 100%;
+    top: 100%;
+  }
+
+  .company-detail p:nth-child(1) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .company-detail p:nth-child(2) {
+    font-size: 16px;
+  }
+
+  .company-detail p:nth-child(3) {
+    font-size: 14px;
+  }
+
+  .ratio {
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+
+  .projects-banner {
+    height: 300px;
+  }
+
+  .projects-banner p:nth-child(2) {
+    color: black;
+    font-size: 15px;
+  }
+
+  .projects-banner p:nth-child(1) {
+    font-size: 30px;
+    color: black;
+  }
+
+  .project-details {
+    padding: 40px;
+  }
+
+  .project-details p:nth-child(1) {
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+
+  .project-details p:nth-child(2) {
+    font-size: 15px;
+    word-spacing: 2px;
+  }
+
+  .page-banner {
+    padding: 100px 0;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .page-banner p {
+    letter-spacing: -1px;
+  }
+  .sub-menu{
+    display: none;
+  }
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+  .main-banner .item {
+    width: 100vw;
+    height: 400px
+  }
+
+  .main-banner .item img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .item-content {
+    padding: 25px 18px;
+    width: 235px;
+    top: 50px;
+    left: 90px;
+    background-color: #30373e;
+  }
+
+  .item-content .sub-title {
+    color: #B19777;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .item-content .title {
+    font-size: 21px;
+  }
+
+  .item-content .desc {
+    font-size: 15px;
+  }
+
+  .view-btn {
+    font-size: 13px;
+    padding: 6px 15px;
+  }
+
+  .logo h1 {
+    font-size: 30px;
+  }
+
+  .logo h3::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 250px;
+    background: linear-gradient(to left, rgb(203, 124, 112), rgba(179, 154, 150, .1));
+    top: 40px;
+    left: -80px;
+  }
+
+  .review-slider {
+    padding: 70px 10px;
+  }
+
+  .review-slider>div {
+    padding: 0 80px;
+  }
+
+  .review-slider .carousel-control-prev {
+    left: -50px;
+  }
+
+  .review-slider .carousel-control-next {
+    right: -50px;
+  }
+
+  .review-slider .item h1 {
+    letter-spacing: 3px;
+    font-size: 45px;
+  }
+
+  .review-slider .item p:nth-child(2) {
+    color: #FEFEFE;
+    font-size: 18px;
+    line-height: 28px;
+    word-spacing: 5px;
+  }
+
+  .inspi-detail p:nth-child(1) {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 31px;
+    word-spacing: 5px;
+  }
+
+  .div-border {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 18px;
+    right: 18px;
+  }
+
+  .footer-logo::after {
+    left: 30%;
+    width: 70%;
+  }
+
+  .company-detail p:nth-child(1) {
+    font-size: 27px;
+    line-height: 32px;
+  }
+
+  .company-detail p:nth-child(2) {
+    font-size: 16px;
+  }
+
+  .company-detail p:nth-child(3) {
+    font-size: 14px;
+  }
+
+  .ratio {
+    height: 120px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+
+  .projects-banner {
+    height: 350px;
+  }
+
+  .projects-banner p:nth-child(2) {
+    font-size: 17px;
+    color: black;
+    padding: 0 100px;
+  }
+
+  .projects-banner p:nth-child(1) {
+    font-size: 40px;
+    color: black;
+  }
+
+  .project-details {
+    padding: 80px;
+  }
+
+  .project-details p:nth-child(1) {
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+
+  .project-details p:nth-child(2) {
+    font-size: 17px;
+    word-spacing: 2px;
+  }
+
+  .page-banner {
+    padding: 140px 0;
+    background-attachment: fixed;
+  }
+
+  .sub-menu{
+    display: none;
+  }
+}
+
+
+
+
+
+@media screen and (min-width:1024px) {
+  .main-banner .item {
+    height: 500px;
+    width: 100vw;
+  }
+
+  .main-banner .item img {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+  }
+
+  .item-content {
+    padding: 50px 25px;
+    width: 280px;
+    top: 80px;
+    left: 60px;
+    background-color: #30373e;
+  }
+
+  .item-content .sub-title {
+    color: #B19777;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .item-content .title {
+    font-size: 28px;
+  }
+
+  .item-content .desc {
+    font-size: 15px;
+  }
+
+  .view-btn {
+    padding: 9px 24px;
+  }
+
+  .logo h3::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 240px;
+    background: linear-gradient(to left, rgb(203, 124, 112), rgba(179, 154, 150, .1));
+    top: 40px;
+    left: -70px;
+  }
+
+  .main-menu>a::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition-duration: .4s;
+    bottom: 0;
+    left: 10px;
+  }
+
+  .main-menu>a:hover {
+    &::after {
+      width: 50%;
+    }
+  }
+
+  .review-slider>div {
+    padding: 0 150px;
+  }
+
+  .review-slider .carousel-control-prev {
+    left: -100px;
+  }
+
+  .review-slider .carousel-control-next {
+    right: -100px;
+  }
+
+  .review-slider {
+    padding: 100px 10px;
+  }
+
+  .review-slider .item h1 {
+    letter-spacing: 3px;
+    font-size: 50px;
+  }
+
+  .review-slider .item p:nth-child(2) {
+    color: #FEFEFE;
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 5px;
+  }
+
+  .div-border {
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    top: 18px;
+    right: 18px;
+  }
+
+  .footer-logo::after {
+    height: 0.5px;
+    left: 25%;
+    width: 75%;
+  }
+
+  .company-detail p:nth-child(1) {
+    font-size: 27px;
+    line-height: 32px;
+  }
+
+  .company-detail p:nth-child(2) {
+    font-size: 16px;
+  }
+
+  .company-detail p:nth-child(3) {
+    font-size: 14px;
+  }
+
+  .outer-design-detail {
+    bottom: -100%;
+    left: 0;
+    transition-duration: .4s;
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .design-img:hover .outer-design-detail {
+    visibility: visible;
+    bottom: 0;
+  }
+
+  .projects-banner {
+    height: 450px;
+  }
+
+  .projects-banner p:nth-child(1) {
+    font-size: 50px;
+    color: white;
+  }
+
+  .projects-banner p:nth-child(2) {
+    font-size: 18px;
+    padding: 0 150px;
+    color: white;
+  }
+
+  .project-details {
+    padding: 0 40px;
+    align-content: center;
+  }
+
+  .project-details p:nth-child(1) {
+    font-size: 26px;
+    letter-spacing: 1px;
+  }
+
+  .project-details p:nth-child(2) {
+    font-size: 15px;
+    word-spacing: 2px;
+  }
+
+  .page-banner {
+    padding: 180px 0;
+  }
+
+  .sub-menu {
+    position: absolute;
+    display: block;
+    left: -8px;
+    top: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    z-index: 10;
+    transition: 0.3s;
+  }
+
+  .sub-menu ul {
+    padding: 20px 35px;
+  }
+
+  .sub-menu ul li {
+    text-align: left;
+    margin: 15px 0;
+  }
+
+  .main-menu a:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    overflow: visible;
+  }
+}
+
+
+
+
+
+  @media screen and (min-width:1200px) {
+    .main-banner .item {
+      height: 700px;
+      width: 100%;
+    }
+
+    .main-banner .item img {
+      width: 90%;
+      height: 100%;
+      margin-left: auto;
+
+    }
+
+    .logo h3::before {
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 300px;
+      background: linear-gradient(to left, rgb(203, 124, 112), rgba(179, 154, 150, .1));
+      top: 40px;
+      left: -130px;
+    }
+
+    .review-slider>div {
+      padding: 0 300px;
+    }
+
+    .review-slider .carousel-control-prev {
+      left: -150px;
+    }
+
+    .review-slider .carousel-control-next {
+      right: -150px;
+    }
+
+    .item-content {
+      padding: 50px 30px;
+      width: 330px;
+      top: 25%;
+      left: 60px;
+      background-color: #30373e;
+    }
+
+    .item-content p:nth-child(1) {
+      color: #B19777;
+      text-align: center;
+    }
+
+    .view-btn {
+      padding: 12px 28px;
+    }
+
+    .div-border {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      top: 20px;
+      right: 20px;
+    }
+
+    .footer-logo::after {
+      left: 20%;
+      width: 80%;
+    }
+
+    .company-detail p:nth-child(1) {
+      font-size: 30px;
+      line-height: 32px;
+    }
+
+    .company-detail p:nth-child(2) {
+      font-size: 18px;
+    }
+
+    .company-detail p:nth-child(3) {
+      font-size: 15px;
+    }
+
+    .projects-banner {
+      height: 600px;
+    }
+
+    .projects-banner p:nth-child(1) {
+      font-size: 60px;
+    }
+
+    .projects-banner p:nth-child(2) {
+      padding: 0 400px;
+    }
+
+    .project-details {
+      padding: 80px;
+    }
+
+    .project-details p:nth-child(1) {
+      font-size: 36px;
+      letter-spacing: 1px;
+    }
+
+    .project-details p:nth-child(2) {
+      font-size: 18px;
+      word-spacing: 2px;
+    }
+
+    .page-banner {
+      padding: 200px 0;
+    }
+
+    .contact p {
+      letter-spacing: -5px;
+    }
+
+  }
